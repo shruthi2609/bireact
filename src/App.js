@@ -1,4 +1,6 @@
+import ContactManager from "./Components/ArrayState"
 import FormComponent from "./Components/FormComponent"
+import FunctionalState from "./Components/FunctionalState"
 import SimpleClassComponent from "./Components/SimpleClassComponent"
 import WelcomePage from "./Components/WelcomePage"
 function App(){
@@ -7,7 +9,7 @@ function App(){
           {/*   <WelcomePage fname="johan" email="john@gmail.com" profileimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAxZm2ab3-Gb0kTCPzeuQYhxk30v28eWA1YpPK80&s"></WelcomePage>
           <WelcomePage fname="peter" email="peter@gmail.com" profileimg="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAxZm2ab3-Gb0kTCPzeuQYhxk30v28eWA1YpPK80&s"></WelcomePage>
           <SimpleClassComponent info="v19.0.0"></SimpleClassComponent>*/}
-          <FormComponent></FormComponent>
+      <ContactManager></ContactManager>
         </div>
 
     )
